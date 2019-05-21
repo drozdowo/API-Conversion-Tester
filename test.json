@@ -1,0 +1,39 @@
+{
+  "original": {
+    "baseUrl": "https://original-api-url.com/",
+    "auth": {
+      "payload": {
+        "username": "USERNAME",
+        "password": "PASSWORD"
+      },
+      "endpoint": "/login/auth"
+    }
+  },
+  "converted": {
+    "baseUrl": "http://localhost:3000"
+  },
+  "tests": [
+    {
+      "testName": "Get Test 1",
+      "endpoint": "/getTest",
+      "method": "GET",
+      "payload": {}
+    },
+    {
+      "testName": "Get Test 2",
+      "endpoint": "/getTest2",
+      "method": "GET",
+      "payload": {}
+    },
+    {
+      "testName": "Post Test",
+      "endpoint": "/depositMoney",
+      "method": "POST",
+      "payload": {
+        "accountId": 12345,
+        "deposit": 123,
+        "currency": "USD"
+      }
+    }
+  ]
+}

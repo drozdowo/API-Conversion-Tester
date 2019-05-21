@@ -1,0 +1,31 @@
+{
+  "name": "APIConversionHelper",
+  "version": "1.0.0",
+  "description": "Tool that helps match outputs from one (source) API to a new converted API.",
+  "main": "index.js",
+  "author": "Oliver Drozdowski",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ascii-art": "^1.5.1",
+    "asciify-image": "^0.1.5",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
